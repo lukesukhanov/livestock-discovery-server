@@ -1,0 +1,30 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  application:
+    name: discovery-server
+
+eureka:
+  instance:
+    hostname: localhost
+    instanceId: ${spring.application.name}:${random.value}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health
+  endpoint:
+    info:
+      app:
+        name: ${spring.application.name}
+        version: 1.0
+    health:
+      show-details: always
+
+logging:
+  config: classpath:logback-dev.xml
