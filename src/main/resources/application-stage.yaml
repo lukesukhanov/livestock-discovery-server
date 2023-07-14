@@ -1,5 +1,5 @@
 server:
-  port: ${SERVER_PORT}
+  port: 8761
 
 spring:
   application:
@@ -27,4 +27,4 @@ management:
       show-details: always
 
 logging:
-  config: classpath:logback-dev.xml
+  config: classpath:logback-stage.xml
