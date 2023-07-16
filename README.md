@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 ## About the application
-The discovery service for the 'Livestock' project's backend.<br />
+The discovery service for the 'Livestock' project.<br />
 <p>
 
 ## How to run the project
