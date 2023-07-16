@@ -1,8 +1,9 @@
 <a name="readme-top"></a>
 
 ## About the application
-The discovery service for the 'Livestock' project.<br />
+The discovery service for the 'Livestock' project.
 <p>
+See also <a href="https://github.com/lukesukhanov/livestock">the main project page.</a>
 
 ## How to run the project
 Start Spring Boot application using 'stage' profile (-Dspring.profiles.active=stage).<br />
